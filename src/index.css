@@ -1,8 +1,13 @@
+@font-face {
+  font-family: 'Myriad Pro';
+  src: local('Myriad Pro'), url(../public/MYRIADPRO-REGULAR.OTF) format('otf');
+  font-style: normal;
+  font-weight: normal;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Myriad Pro';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +15,71 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.get-joke-button {
+  background-color: rgb(122, 192, 110);
+  border: none;
+  border-radius: 50px;
+  color: white;
+  padding: 20px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.get-joke-button:hover {
+  background-color: rgb(62, 142, 65);
+}
+
+.view-docs {
+  font-size: 18px;
+  line-height: 28px;
+  color: rgb(24, 96, 168);
+  text-decoration: underline;
+}
+
+.container {
+  margin: 100px 400px;
+}
+
+.divider {
+  border: 1px solid rgb(204, 204, 204);
+  margin-top: 50px;
+}
+
+.show-button {
+  background-color: rgb(24, 96, 168);
+  border: none;
+  border-radius: 50px;
+  color: white;
+  padding: 20px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.show-button:hover {
+  background-color: rgb(84, 146, 223);
+}
+
+.hide-button {
+  background-color: rgb(41, 127, 190);
+  border: none;
+  border-radius: 50px;
+  color: white;
+  padding: 20px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.hide-button:hover {
+  background-color: rgb(84, 146, 223);
 }
